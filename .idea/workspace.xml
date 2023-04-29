@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="151ca80f-2f8e-4894-a764-173eb038d08c" name="Changes" comment="" />
+    <list default="true" id="151ca80f-2f8e-4894-a764-173eb038d08c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LoginPage/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginPage/src/app/models/userRequest.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginPage/src/app/services/user-auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPRING_SECURITY_JWT_example/src/main/java/com/oualid/spring_security_example/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPRING_SECURITY_JWT_example/src/main/java/com/oualid/spring_security_example/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPRING_SECURITY_JWT_example/src/main/java/com/oualid/spring_security_example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPRING_SECURITY_JWT_example/src/main/java/com/oualid/spring_security_example/controller/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,10 +49,11 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Work space/spring/SpringBootReviews/ORM_example",
+    "last_opened_file_path": "D:/Work space/spring/SpringBootReviews",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -117,6 +124,7 @@
       <workItem from="1682123584723" duration="30000" />
       <workItem from="1682123653885" duration="35000" />
       <workItem from="1682123743775" duration="19000" />
+      <workItem from="1682720913323" duration="10000" />
     </task>
     <servers />
   </component>

@@ -48,11 +48,13 @@ public class SecurityConfig {
         http
                 .csrf()
                 .disable()
+                .cors()
+                .and()
                 .authorizeHttpRequests()
                 .requestMatchers("/products/welcome","/users/new","/users/authenticate").permitAll()
                 .and()
                 .authorizeHttpRequests()
-                .requestMatchers("/products/**")
+                .requestMatchers("/products/**","/users/all")
                 .authenticated()
                 .and()
                 .sessionManagement()
@@ -60,6 +62,7 @@ public class SecurityConfig {
                 .and()
                 .authenticationProvider(authenticationProvider())
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
+
 
         return http.build();
     }

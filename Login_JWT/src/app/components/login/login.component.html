@@ -1,0 +1,21 @@
+<div class="bootstrap-wrapper">
+  <div class="container mt">
+    <h1 class="text-center">Welcome to Login page</h1>
+    <form [formGroup]="loginForm" class="login-form" (ngSubmit)="onSubmit()">
+      <mat-form-field class="login-form-field">
+        <mat-label>Username</mat-label>
+        <input formControlName="username" matInput placeholder="Enter your username" class="login-input">
+      </mat-form-field>
+
+      <mat-form-field class="login-form-field">
+        <mat-label>Password</mat-label>
+        <input formControlName="password" matInput type="password" placeholder="Enter your password" class="login-input">
+      </mat-form-field>
+
+      <button type="submit" mat-raised-button class="login-button">Login</button>
+    </form>
+  </div>
+</div>
+
+{{'{"username" :"'+this.f['username'].value+'" ,"password" :"'+this.f['password'].value+'"}'}}
+
